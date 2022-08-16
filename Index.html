@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=yes" />
+
+  <!--site de référence pour récupérer les icones-->
+  <script src="https://kit.fontawesome.com/0f453ed590.js" crossorigin="anonymous"></script>
+
+  <!--lien css utilisé-->
+  <link rel="stylesheet" href="css/Pages/c-acceuil.css" />
+
+  <!--titre du site-->
+  <title>Oh my Food</title>
+</head>
+
+<body>
+  <!--bloc chargement-->
+  <div class="bloc">
+    <div class="bloc__loader"></div>
+  </div>
+
+  <div id="homepage">
+
+    <!--Logo du site-->
+    <header class="header">
+      <h1 class="header__logo"> <img src="Images/logo/ohmyfood.png" alt="logo"></h1>
+    </header>
+
+
+    <!--bloc zone recherche-->
+    <div class="local">
+      <div class="local__iconemap">
+        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+      </div>
+      <div class="local__content">
+        <a class="local__text">Paris, Belleville</a>
+      </div>
+    </div>
+
+    <div class="intro">
+      <!--titres intro-->
+      <div class="intro__content">
+        <h1 class="intro__title">Réservez le menu qui vous convient</h1>
+        <p class="intro__subtitle">Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
+      </div>
+      <!--bouton exploration-->
+      <button class="button">
+        <span class="button__text">Explorer nos restaurants</span>
+      </button>
+
+    </div>
+
+    <main class="main">
+      <!--tutorielle du site-->
+      <section class="section section--fonctionnement">
+        <!--Titre-->
+        <h2 class="section__title">Fonctionnement</h2>
+
+        <!--Boite 01-->
+        <div class="tuto">
+          <div class="tuto__content">
+            <!--numéro 01-->
+            <div class="tuto__number">
+              <span class="number--one">1</span>
+            </div>
+            <!--Icon telephone-->
+            <div class="tuto__icon">
+              <i class="fas fa-mobile-alt" aria-hidden="true"> </i>
+            </div>
+            <!--titre-->
+            <p class="tuto__text">Choisissez un restaurant</p>
+          </div>
+        </div>
+
+        <!--Boite 01-->
+        <div class="tuto">
+          <div class="tuto__content">
+            <!--numéro 02-->
+            <div class="tuto__number">
+              <span class="number--two">2</span>
+            </div>
+            <!--Icon puce-->
+            <div class="tuto__icon">
+              <i class="fas fa-list-ul" aria-hidden="true"> </i>
+            </div>
+            <!--titre-->
+            <p class="tuto__text">Composez votre menu</p>
+          </div>
+        </div>
+
+        <!--Boite 03-->
+        <div class="tuto">
+          <div class="tuto__content">
+            <!--numéro 03-->
+            <div class="tuto__number">
+              <span class="number--three">3</span>
+            </div>
+            <!--Icon stand-->
+            <div class="tuto__icon">
+              <i class="fas fa-store i--one" aria-hidden="true"> </i>
+            </div>
+            <!--titre-->
+            <p class="tuto__text">Dégustez au restaurant</p>
+          </div>
+        </div>
+
+      </section>
+
+      <!--restaurant-->
+      <section class="resto resto--restaurants">
+        <div class="container">
+          <!--titre-->
+          <h2 class="resto__title">Restaurants</h2>
+          <!--les cartes-->
+          <div class="transform">
+            <div class="cards">
+
+              <!--carte 1-->
+              <div class="card">
+                <!--lien vers page-->
+                <a href="./la_palette_du_gout.html">
+                  <!--image de la carte-->
+                  <div class="card__image">
+                    <img src="Images/restaurants/jay-wennington-.jpg" alt="" class="card__img">
+                  </div>
+                  <!--contenue carte-->
+                  <Div class="card__content">
+                    <!--badge : nouveau-->
+                    <span class="card__badge">Nouveau</span>
+
+                    <!--partie bas de la carte-->
+                    <!--titre de la carte-->
+                    <h3 class="card__title">La palette du goût</h3>
+                    <!--Sous titre de la carte-->
+                    <span class="card__subtitle">Ménilmontant</span>
+                    <!--Icone like de la carte-->
+                    <div class="card__heart">
+                      <!--like non activé-->
+                      <i class="far fa-heart" aria-hidden="true"></i>
+                      <!--like activé-->
+                      <i class="fas fa-heart fa-heart-animated"></i>
+                    </Div>
+                  </Div>
+                </a>
+              </div>
+
+              <!--carte 2-->
+              <div class="card">
+                <!--lien vers page-->
+                <a href="./la_note_enchantee.html">
+                  <!--image de la carte-->
+                  <div class="card__image">
+                    <img src="Images/restaurants/Assiettes.jpg" alt="" class="card__img">
+                  </div>
+                  <!--contenue carte-->
+                  <Div class="card__content">
+                    <!--badge : nouveau-->
+                    <span class="card__badge">Nouveau</span>
+                    <!--partie bas de la carte-->
+
+                    <!--titre de la carte-->
+                    <h3 class="card__title">La note enchantée</h3>
+                    <!--Sous titre de la carte-->
+                    <span class="card__subtitle">Charonne</span>
+                    <!--Icone like de la carte-->
+                    <div class="card__heart">
+                      <!--like non activé-->
+                      <i class="far fa-heart" aria-hidden="true"></i>
+                      <!--like activé-->
+                      <i class="fas fa-heart fa-heart-animated"></i>
+                    </Div>
+                  </Div>
+                </a>
+              </div>
+
+              <!--carte 3-->
+              <div class="card">
+                <!--lien vers page-->
+                <a href="./a_la_francaise.html">
+                  <!--image de la carte-->
+                  <div class="card__image">
+                    <img src="Images/restaurants/toa-heftiba.jpg" alt="" class="card__img">
+                  </div>
+                  <!--contenue carte-->
+                  <Div class="card__content">
+                    <!--partie bas de la carte-->
+                    <!--titre de la carte-->
+                    <h3 class="card__title">À la française</h3>
+                    <!--Sous titre de la carte-->
+                    <span class="card__subtitle">Cité Rouge</span>
+                    <!--Icone like de la carte-->
+                    <div class="card__heart">
+                      <!--like non activé-->
+                      <i class="far fa-heart" aria-hidden="true"></i>
+                      <!--like activé-->
+                      <i class="fas fa-heart fa-heart-animated"></i>
+                    </Div>
+                  </Div>
+                </a>
+              </div>
+
+              <!--carte 4-->
+              <div class="card">
+                <!--lien vers page-->
+                <a href="./le_delice_des_sens.html">
+                  <!--image de la carte-->
+                  <div class="card__image">
+                    <img src="Images/restaurants/louis-hansel-shotsoflouis.jpg" alt="" class="card__img">
+                  </div>
+                  <!--contenue carte-->
+                  <Div class="card__content">
+                    <!--partie bas de la carte-->
+                    <!--titre de la carte-->
+                    <h3 class="card__title">Le délice des sens</h3>
+                    <!--Sous titre de la carte-->
+                    <p class="card__subtitle">Folie-Méricourt</p>
+                    <!--Icone like de la carte-->
+                    <div class="card__heart">
+                      <!--like non activé-->
+                      <i class="far fa-heart" aria-hidden="true"></i>
+                      <!--like activé-->
+                      <i class="fas fa-heart fa-heart-animated"></i>
+                    </Div>
+                  </Div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Pied de page-->
+    <footer class="footer">
+      <a class="footer__title" href="#">ohmyfood</a>
+
+      <div class="footer__content">
+        <!--puce 1-->
+        <div class="footer__content__subtitle">
+          <!--icone couverts-->
+          <i class="fas fa-utensils"></i>
+          <!--texte-->
+          <a class="footer__content__link" href="#">Proposer un restaurant</a>
+        </div>
+
+        <!--puce 2-->
+        <div class="footer__content__subtitle">
+          <!--icone couverts-->
+          <i class="fas fa-hands-helping icon"></i>
+          <!--texte-->
+          <a class="footer__content" href="#">Devenir Partenaire</a>
+        </div>
+
+        <!--puce 3-->
+        <div class="footer__content__subtitle">
+          <a class="footer__content" href="#">Mentions légales</a>
+        </div>
+
+        <!--puce 4-->
+        <div class="footer__content__subtitle">
+          <a class="footer__content" href="mailto:email@example.com">Contact</a>
+        </div>
+
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
