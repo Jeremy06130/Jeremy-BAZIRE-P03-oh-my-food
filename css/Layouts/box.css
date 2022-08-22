@@ -28,9 +28,6 @@
   width: 40px;
   border-radius: 0px 10px 10px 0px;
 }
-.box__contents:hover .box__contents__left {
-  width: calc(100% - 40px);
-}
 .box__contents__title {
   font-weight: 800;
 }
